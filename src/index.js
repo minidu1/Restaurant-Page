@@ -1,4 +1,5 @@
 import "./styles.css";
 
-// const greeting = "Hello, Odinite!";
-// alert(greeting);
+import { homePage } from "./homepage.js";
+
+// homePage()
