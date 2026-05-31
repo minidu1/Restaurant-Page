@@ -6,7 +6,7 @@ import pasta from "./images/pasta.jpg"
 import ramen from "./images/ramen.jpg"
 import sushi from "./images/sushi.jpg"
 
-export default function loadMeanu() {
+export default function loadMenu() {
     const contentDiv = document.querySelector("#content")
     const menu = createMenu()
     contentDiv.appendChild(menu)
@@ -40,7 +40,7 @@ class MenuItem {
 
         const price = document.createElement("div")
         price.classList.add("price")
-        price.textContent = this.price
+        price.textContent = `$ ${this.price}`
 
         menuItem.append(imgDiv, name, description, price)
         return menuItem
