@@ -1,4 +1,3 @@
-// import { createElement } from "react";
 
 export function homePage(){
     const contentDiv = document.querySelector("#content")
